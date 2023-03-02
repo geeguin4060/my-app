@@ -1,0 +1,9 @@
+{
+  "name": "yarn-berry-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/geeguin4060/yarn-berry-monorepo",
+  "author": "geeguin <94340671+jeongjin-kang@users.noreply.github.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.4.1"
+}
