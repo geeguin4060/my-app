@@ -1,18 +1,14 @@
 {
   "name": "yarn-berry-monorepo",
-  "packageManager": "yarn@3.4.1",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "frontend": "yarn workspace frontend"
+      "preinstall": "pnpm dlx only-allow pnpm",
+      "next-app": "pnpm --filter next-app"
   },
-  "devDependencies": {
-    "@types/eslint": "^8",
-    "@types/prettier": "^2",
-    "eslint": "^8.35.0",
-    "prettier": "^2.8.4",
-    "typescript": "^4.9.5"
-  }
+  "workspaces": ["packages/*"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
