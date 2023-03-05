@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "preinstall": "pnpm dlx only-allow pnpm",
       "next-app": "pnpm --filter next-app",
       "nest-app": "pnpm --filter nest-app"
   },
